@@ -11,6 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="icon" type="image/png" href="/somewhere/myicon.png" />
+    <a href="https://icons8.com/icon/dZyItLBtAa4d/ruby-programming-language"></a>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -18,28 +22,33 @@
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
+            <img src="images/me.png" alt="Gabe Reiter" id="photo" 
+            style="border-radius: 500px;
+                    height: 250px;">
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
               <li><a href="#one">Skills</a></li>
 							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Say Hello!</a></li>
+							<li><a href="#three">Contact</a></li>
+							<li><a href="https://docs.google.com/document/d/160OZTmfhfRQ_i6WWiIgBqU4R2NVjCppSXmLc7L4taUY" target="_blank">Resume</a></li>
 						</ul>
 					</nav>
           <div>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-angellist"></i></a>
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fas fa-envelope"></i></a>
+            <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
+            <a href="" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="" target="_blank"><i class="fas fa-envelope"></i></a>
           </div>
 				</div>
-           
 			</section>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="intro" class="wrapper style1 fullscreen fade-up"
+          style="background-color: rgb(35, 48, 44);"
+          >
 						<div class="inner">
 							<h1>Gabriel Reiter</h1>
 							<p>Hi Everybody. My name is Gabriel Reiter and I am a full stack engineer. 
@@ -47,22 +56,24 @@
                 Years of working in accounting and finance, has given me an eye for detail which I put to good use in my code.
               </p>
 							<ul class="actions">
-								<a href="https://docs.google.com/document/d/160OZTmfhfRQ_i6WWiIgBqU4R2NVjCppSXmLc7L4taUY/edit" class="button scrolly" target="_blank">My Resume</a>
+								<a href="https://docs.google.com/document/d/160OZTmfhfRQ_i6WWiIgBqU4R2NVjCppSXmLc7L4taUY/" class="button scrolly" target="_blank">My Resume</a>
 							</ul>
 						</div>
 					</section>
 
           <!-- One -->
-          <section id="one" class="wrapper style3 fade-up">
+          <section id="one" class="wrapper style3 fade-up"
+          style="background-color: rgb(35, 48, 44);"
+          >
             <div class="inner">
-              <h2>Some of my Skills</h2>
+              <h2>What I can do</h2>
               <div class="features">
                 <section>
                   <span class="icon solid major fa-code"></span>
-                  <h3>Languages / Libraries</h3>
-                  <hp>Ruby, JavaScript, HTML5, CSS3</p>
-                  <div>
-                    <span class="icon major devicon-rails-plain-wordmark colored"></span>
+                  <h3>Languages </h3>
+                  <p>Ruby, JavaScript, HTML5, CSS3</p>
+                  <div class='languageIcons'>
+                    <span class="iconify" data-icon="mdi-language-ruby" data-inline="false"></span>
                     <i class="fab fa-js"></i>
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3-alt"></i>
@@ -70,25 +81,35 @@
                 </section>
                 <section>
                   <span class="icon solid major fa-code"></span>
-                  <h3>Web Tools</h3>
+                  <h3>Libraries/Frameworks</h3>
                   <p>React/Redux, Node, Ruby on Rails, jQuery</p>
-                  <div>
+                  <div class='languageIcons'>
                     <i class="fab fa-react"></i>
+                    <span class="iconify" data-icon="bx:bxl-redux" data-inline="false"></span>
                     <i class="fab fa-node-js"></i>
+                    <span class="iconify" data-icon="mdi:language-ruby-on-rails" data-inline="false"></span>
+                    <span class="iconify" data-icon="bx:bxl-jquery" data-inline="false"></span>
                   </div>
                 </section>
                 <section>
                   <span class="icon solid major fa-desktop"></span>
                   <h3>Web Tools</h3>
                   <p>Git, Heroku, MongoDb, PostgreSQL</p>
-                  <div>
+                  <div class='languageIcons'>
                     <i class="fab fa-git"></i>
+                    <span class="iconify" data-icon="cib:heroku" data-inline="false"></span>
+                    <span class="iconify" data-icon="simple-icons:mongodb" data-inline="false"></span>
+                    <span class="iconify" data-icon="cib:postgresql" data-inline="false"></span>
                   </div>
                 </section>
                 <section>
                   <span class="icon solid major fa-cog"></span>
                   <h3>Other Tools</h3>
                   <p>Quickbooks, Netsuite</p>
+                  <div class='languageIcons'>
+                    <span class="iconify" data-icon="simple-icons:quickbooks" data-inline="false"></span>
+                    <span class="iconify" data-icon="cib:oracle-netsuite" data-inline="false"></span>
+                  </div>
                 </section>
               </div>
             </div>
@@ -101,21 +122,27 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Trace</h2>
-									<p>A full stack route and workout application inspired by STRAVA and deployed on Heroku.</p>
+									<p>A full stack route and workout application inspired by STRAVA and deployed on Heroku.
+                    Utilizing Google Maps API, create and track your favorite running routes.
+                  </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://trace-aa.herokuapp.com/#/" class="button" target="_blank">Live</a></li>
+										<li><a href="https://github.com/greiter18/Trace" class="button" target="_blank">Git</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="https://whats-cooking-programmers.herokuapp.com/#/" class="image"><img src="images/whatcooking1.png" alt="" data-position="top center" target="_blank"/></a>
+							<a href="https://whats-cooking-programmers.herokuapp.com/#/" class="image"><img src="images/whatscooking.png" alt="" data-position="top center" target="_blank"/></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Whats Cooking?</h2>
-									<p>A full stack project that generates recipes based on the ingredients entered</p>
+									<p>A full stack project that generates recipes based on the ingredients entered.
+                    A MERN stack application that uses a recipe api. Collaborated with some awesome software engineers on this one.
+                  </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://whats-cooking-programmers.herokuapp.com/#/" class="button" target="_blank">Live</a></li>
+										<li><a href="https://github.com/galenddavis/whats_cooking" class="button" target="_blank">Git</a></li>
 									</ul>
 								</div>
 							</div>
@@ -125,9 +152,12 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Lava Escape</h2>
-									<p>Interactive 2D platform game where players try to survive for the high score</p>
+									<p>Interactive 2D platform game where players try to survive for the high score.
+                    Created with Canvas, Vanilla Javascript, CSS. Can you beat the highscore? 
+                  </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://greiter18.github.io/lava-escape/" class="button" target="_blank">Live</a></li>
+										<li><a href="https://github.com/greiter18/lava-escape" class="button" target="_blank">Git</a></li>
 									</ul>
 								</div>
 							</div>
@@ -139,10 +169,10 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Always looking for new opportunites and potential collaborations. Please Reach out to me via email or phone.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<!-- <form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -161,29 +191,29 @@
 											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
-								</section>
+								</section> -->
 								<section>
 									<ul class="contact">
-										<li>
+										<!-- <li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
+											<span>29 Bombay Street, Side Door<br />
+											Staten Island, NY 10306<br />
 											USA</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Email</h3>
-											<a href="#">gabeh.Reiter@gmail.com</a>
+											<a href="mailto:gabeh.reiter@gmail.com">gabeh.Reiter@gmail.com</a>
 										</li>
 										<li>
 											<h3>Phone</h3>
-											<span>(917) 885-5137</span>
+                      <a href="tel:+1978855137">(917) 885-5137</a>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
                         <li><a href="https://angel.co/u/gabriel-reiter" class="fab fa-angellist" target="_blank"></a></li>
-												<li><a href="https://github.com/greiter18" class="icon brands fa-github" ><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/gabriel-reiter-7352b2b7/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/greiter18" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/gabriel-reiter-7352b2b7/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -198,7 +228,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>

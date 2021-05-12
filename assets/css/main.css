@@ -2552,7 +2552,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #60666C;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -2560,6 +2560,10 @@ input, select, textarea {
 				}
 
 /* Image */
+
+.languageIcons{
+  font-size: 30px;
+}
 
 	.image {
 		border-radius: 0.25em;
@@ -2571,6 +2575,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+      height: 100%;
+      width: 450px;
 		}
 
 		.image.left, .image.right {
