@@ -2565,6 +2565,10 @@ input, select, textarea {
 .languageIcons{
   font-size: 30px;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 10%;
 }
 
 	.image {
