@@ -2569,6 +2569,7 @@ input, select, textarea {
   justify-content: space-around;
   position: relative;
   right: 10%;
+  margin-bottom: 3%;
 }
 
 	.image {
@@ -2581,8 +2582,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
-      height: 495px;
-      width: 495px;
+      height: 100%;
+      width: 100%;
 		}
 
 		.image.left, .image.right {
