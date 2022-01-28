@@ -2579,6 +2579,11 @@ input, select, textarea {
 		position: relative;
 	}
 
+  /* #traceimage{
+    object-fit: cover;
+    
+  } */
+
 		.image img {
 			border-radius: 0.25em;
 			display: block;
