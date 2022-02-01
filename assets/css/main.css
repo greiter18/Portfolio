@@ -2579,16 +2579,24 @@ input, select, textarea {
 		position: relative;
 	}
 
-  /* #traceimage{
+  #traceimage{
     object-fit: cover;
-    
-  } */
+    object-position: -156px 0px;
+  }
+
+  @media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
       height: 100%;
       width: 100%;
+      
 		}
 
 		.image.left, .image.right {
